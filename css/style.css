@@ -1,0 +1,52 @@
+body {
+    background: lightgray;
+}
+.wrapper {
+    max-width: 500px;
+    width: 100%;
+    margin: 40px auto 40px;
+    border: 1px solid black;
+    padding: 20px 0 30px 250px;
+    background: white;
+}
+li{
+    font-size: 20px;
+}
+ul {
+    text-decoration: none;
+    padding-left: 0;
+    list-style: none;
+}
+
+.label {
+    font-size: 18px;
+    margin-left: 0;
+    line-height: 30px;
+}
+
+.submit {
+    font-size: 14px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    background: lightblue;
+}
+.span:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: lightblue;
+    border: 1px solid black;
+    margin: 4px 10px 0 0;
+    vertical-align: top;
+}
+
+.checkbox {
+    display: none;
+}
+.checkbox:checked + .span:before {
+    background: #000;
+}
+.list-line {
+    margin: 5px 0;
+}
